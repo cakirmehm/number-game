@@ -1,5 +1,6 @@
 # number-game
 Number game based on Knight's Tour problem implemented in vanilla js.
+
 Play on netlify: https://number-100-game.netlify.app/
 
 
