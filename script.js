@@ -69,8 +69,8 @@ const setAvailableCells = function (cellElem) {
 
     // Game Over
     if (availableCellCount === 0) {
-        var audio = new Audio('./crowd.wav');
-        audio.play();
+        // var audio = new Audio('./crowd.wav');
+        // audio.play();
 
         scoreDiv.textContent = `Game over! Your score is ${Current}! 🎉🥳`;
 
@@ -103,8 +103,8 @@ const createTable = function (N) {
                     cellElem.classList.contains('availableCell') ||
                     Current === 1
                 ) {
-                    var audio = new Audio('./bubble2.wav');
-                    audio.play();
+                    // var audio = new Audio('./bubble2.wav');
+                    // audio.play();
 
                     cellElem.classList.add('visitedCell');
                     cellElem.textContent = Current;
